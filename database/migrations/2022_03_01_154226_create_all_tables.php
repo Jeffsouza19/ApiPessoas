@@ -21,6 +21,20 @@ return new class extends Migration
             $table->integer('estado');
 
         });
+
+
+        //  Schema::create('tb_cidades', function (Blueprint $table) {
+        //      $table->id();
+        //      $table->integer('estado');
+        //      $table->string('uf');
+        //      $table->string('nome');
+        //  });
+        //
+        //  Schema::create('tb_estados', function (Blueprint $table) {
+        //      $table->id();
+        //      $table->string('uf');
+        //      $table->string('nome');
+        //  });
     }
 
     /**
@@ -31,5 +45,8 @@ return new class extends Migration
     public function down()
     {
         Schema::dropIfExists('tb_pessoas');
+
+        // Schema::dropIfExists('tb_cidades');
+        // Schema::dropIfExists('tb_estados');
     }
 };
