@@ -65,34 +65,36 @@ class PessoaController extends Controller
 
         /////////////////////////////////////////////////////////////////////////
 
+        $estado = strtolower($estado);
+
         switch ($estado) {
-            case 'Acre': $estado = 1; break;
-            case 'Alagoas': $estado = 2; break;
-            case 'Amazonas': $estado = 3; break;
-            case 'Amapa': $estado = 4; break;
-            case 'Bahia': $estado = 5; break;
-            case 'Ceará': $estado = 6; break;
-            case 'Distrito Federal': $estado = 7; break;
-            case 'Espirito Santo': $estado = 8; break;
-            case 'Goias': $estado = 9; break;
-            case 'Maranhao': $estado = 10; break;
-            case 'Minas Gerais': $estado = 11; break;
-            case 'Mato Grosso do Sul': $estado = 12; break;
-            case 'Mato Grosso': $estado = 13; break;
-            case 'Para': $estado = 14; break;
-            case 'Paraiba': $estado = 15; break;
-            case 'Pernambuco': $estado = 16; break;
-            case 'Piaui': $estado = 17; break;
-            case 'Parana': $estado = 18; break;
-            case 'Rio de Janeiro': $estado = 19; break;
-            case 'Rio Grande do Norte': $estado = 20; break;
-            case 'Rondonia': $estado = 21; break;
-            case 'Roraima': $estado = 22; break;
-            case 'Rio Grande do Sul': $estado = 23; break;
-            case 'Santa Catarina': $estado = 24; break;
-            case 'Sergipe': $estado = 25; break;
-            case 'São Paulo': $estado = 26; break;
-            case 'Tocantins': $estado = 27; break;
+            case 'acre': $estado = 1; break;
+            case 'alagoas': $estado = 2; break;
+            case 'amazonas': $estado = 3; break;
+            case 'amapa': $estado = 4; break;
+            case 'bahia': $estado = 5; break;
+            case 'ceará': $estado = 6; break;
+            case 'distrito federal': $estado = 7; break;
+            case 'espirito santo': $estado = 8; break;
+            case 'goias': $estado = 9; break;
+            case 'maranhao': $estado = 10; break;
+            case 'minas gerais': $estado = 11; break;
+            case 'mato grosso do Sul': $estado = 12; break;
+            case 'mato grosso': $estado = 13; break;
+            case 'para': $estado = 14; break;
+            case 'paraiba': $estado = 15; break;
+            case 'pernambuco': $estado = 16; break;
+            case 'piaui': $estado = 17; break;
+            case 'parana': $estado = 18; break;
+            case 'rio de janeiro': $estado = 19; break;
+            case 'rio grande do norte': $estado = 20; break;
+            case 'rondonia': $estado = 21; break;
+            case 'roraima': $estado = 22; break;
+            case 'rio grande do sul': $estado = 23; break;
+            case 'santa catarina': $estado = 24; break;
+            case 'sergipe': $estado = 25; break;
+            case 'são paulo': $estado = 26; break;
+            case 'tocantins': $estado = 27; break;
 
         }
 
