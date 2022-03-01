@@ -60,9 +60,10 @@ class PessoaController extends Controller
             ]);
 
         }
-
-
         $idcidade = $response[0]['id'];
+
+
+        /////////////////////////////////////////////////////////////////////////
 
         switch ($estado) {
             case 'Acre': $estado = 1; break;
